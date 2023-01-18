@@ -1,8 +1,16 @@
 import "./App.css"
 import ReactGA from "react-ga"
+import { useEffect } from "react"
 
-console.log(ReactGA)
 function App() {
+  const TRACKING_ID = "UA - 254531361 - 1"
+  console.log(TRACKING_ID)
+  ReactGA.initialize()
+
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname)
+  }, [])
+
   return (
     <div className='App'>
       <header className='App-header'>
