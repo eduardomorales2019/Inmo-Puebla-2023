@@ -9,9 +9,9 @@ function App() {
         <div className='hero'>
           <h2 className='sitio'>Sitio en construcción</h2>
           <h1> Inmo - Puebla</h1>
-          <h3 className='naming'>
+          {/* <h3 className="naming">
             compra, renta , administracion de propiedades
-          </h3>
+          </h3> */}
         </div>
       </header>
     </div>
