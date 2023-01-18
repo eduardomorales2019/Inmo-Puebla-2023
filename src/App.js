@@ -5,7 +5,7 @@ import { useEffect } from "react"
 function App() {
   const TRACKING_ID = "UA - 254531361 - 1"
   console.log(TRACKING_ID)
-  ReactGA.initialize()
+  ReactGA.initialize(TRACKING_ID)
 
   useEffect(() => {
     ReactGA.pageview(window.location.pathname)
