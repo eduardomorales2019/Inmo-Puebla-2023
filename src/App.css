@@ -9,8 +9,8 @@
 
 .App-header {
   background-color: #282c34;
-
-  background-image: url(./assets/pexels-raul-juarez-2388639\\(1\)\\(1\).jpg);
+  /* background-image: url() */
+  background-image: url("./assets/pexels-raul-juarez-2388639\ \(1\)\ \(1\).jpg");
   /* background-color: #cccccc; */
   height: 500px;
   background-position: center;
